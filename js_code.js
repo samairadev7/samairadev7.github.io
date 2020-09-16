@@ -582,6 +582,16 @@ js_CODE={
                 dataqwert+=`<p class="phone">${ev}</p>`
             })
         contact.innerHTML=dataqwert;
+     
+     
+     
+     if(status_check.hash== true)
+        {
+            
+           let asd=document.querySelector(".form-confirmation-text") 
+           asd.innerText=SETUP.hash;
+           asd.style.display="block";
+        }
     },
 
 
