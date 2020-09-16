@@ -590,7 +590,7 @@ js_CODE={
             
            let asd=document.querySelector(".form-confirmation-text") 
            asd.innerText=SETUP.hash;
-           asd.style.display="block";
+           //asd.style.display="block";
         }
     },
 
