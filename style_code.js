@@ -199,6 +199,7 @@ style_CODE={
       background-color: #011627 !important;
       height: 10vh !important;
       width: 100vw !important;
+      box-shadow:none !important;
     }
     
     header .nav-links {
