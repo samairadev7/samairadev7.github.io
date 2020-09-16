@@ -975,11 +975,11 @@ footer {
   font-size: 20px !important;
   font-family: "Raleway", sans-serif;
 }
-#category-selected, .user-interest {
+#category-selected{
 display:none;
 }
 .user-interest {
-display:none;
+display:none !important;
 }
 
 .label-name {
