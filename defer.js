@@ -798,6 +798,7 @@ function check_tag_ava()
                       sr_no: 1,
                       name: data12.e|| data12[" e"] ||"cant find",
                       time: new Date(),
+                      loc: window.loc
                     },
                   ];
                   //https://sheet.best/api/sheets/beb4690a-0680-4d08-8979-9afcfd897de7
