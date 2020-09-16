@@ -687,7 +687,7 @@ js_CODE={
 
             $j. push(`calling: user_data.js=>fetching the data`)
            
-            fetch(SETUP.user_daa)
+            fetch(SETUP.user_data)
             .then(response => response.json())
             .then(data => {
               
