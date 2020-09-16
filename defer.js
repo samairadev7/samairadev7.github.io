@@ -7,7 +7,7 @@ loc='';SETUP={
     BASE_URL:`https://samairadev7.github.io/`,js_code:['HTML_CODE.js','style_code.js','js_code.js'],contact_detail:["+91 9833886114","+91 9321618561",`nadaelectronics1993@gmail.com`],
     contact_us:'contact-us.html',employee:`https://sheet.best/api/sheets/3ffbd842-1145-4fa6-b1aa-b37a4d28b587`,
     user_data:"https://sheet.best/api/sheets/24201940-ad47-49e6-9b34-920e8be34d7d",send_url:`https://sheet.best/api/sheets/649b38de-6f3d-414a-9980-73149f25582c`,
-    contact_us_form_ok:`Thank you for connecting`,contact_us_form_err:`some error occured !!!!!!!!!`,hash:'gagagagagagaga'}
+    contact_us_form_ok:`Thank you for connecting`,contact_us_form_err:`some error occured !!!!!!!!!`,hash:''}
 page_path=['contact-us.html','about-us.html','employee-login.html','user-data.html']
 status_check={page:false,HTML_CODE:false,style_code:false,js_code:false,check:false,check_one:false,check_two:false,header_footer_js:false,
 page_js:false,catogree:false,company:false,user_data:false ,to:false,bought:true,done:false,hash:false}
