@@ -714,6 +714,7 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 20px;
+margin:0 !important;
   }
   
   .modal-title {
