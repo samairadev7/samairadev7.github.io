@@ -184,18 +184,21 @@ style_CODE={
     }
     
     header {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      background-color: #011627;
-      height: 10vh;
-      width: 100vw;
+   
+    
+      display: -webkit-box !important;
+       position: relative !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-pack: justify !important;
+          -ms-flex-pack: justify !important;
+              justify-content: space-between !important;
+      -webkit-box-align: center !important;
+          -ms-flex-align: center !important;
+              align-items: center !important;
+      background-color: #011627 !important;
+      height: 10vh !important;
+      width: 100vw !important;
     }
     
     header .nav-links {
