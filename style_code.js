@@ -177,6 +177,8 @@ style_CODE={
       min-height: 100vh;
       min-height: -webkit-fill-available;
       overflow-x: hidden;
+    background-image:none !important;
+    background-color: #fdfffc !important;
     }
     
     html {
