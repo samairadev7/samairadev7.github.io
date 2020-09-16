@@ -659,7 +659,8 @@ console.log('waste')
                 window.spl_logger.push(`${ev.email},${data12.e},${ev.password},${data12[" p"]}`)
                 if((ev.email==data12[" e"] ||ev.email==data12.e) && ev.password ==data12[" p"])
                 {    window.spl_logger.push('true')   
-                    console.log('nimish boda')             
+//                     console.log('nimish boda')          
+                 cnt=1;
                     document.cookie="auth=true;"
                     if(seven.page==page_path[2])
                     {
@@ -682,9 +683,16 @@ console.log('waste')
                 
             })
             let adds=document.querySelector("#result")
-            adds.innerHTML="!!!Wrong id or password Reload and Renter"
-            adds.style.color="red";
-
+                if(cnt == 0)
+                {    
+                adds.innerHTML="!!!Wrong id or password Reload and Renter"
+                adds.style.color="red";
+                }
+                else
+                {
+                    adds.innerHTML="!!!welcome sir!!!"
+                adds.style.color="green";
+                }
 
         }        
        
