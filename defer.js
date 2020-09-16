@@ -703,7 +703,7 @@ function check_tag_ava()
     if(seven.page == page_path[0])//contac-us
     {
         js_CODE.contact_us()  
-        b.innerHTML=`<a href="contact-us.html">CONTACT US</a>`
+        b.innerHTML=`<a href="contact-us">CONTACT US</a>`
         a.replaceChild(b,c[2])        
     }
     else
@@ -714,14 +714,14 @@ function check_tag_ava()
             
         setTimeout(ev=>{js_CODE.about_us()},10)
         
-        b.innerHTML=`<a href="about-us.html">ABOUT US</a>`
+        b.innerHTML=`<a href="about-us">ABOUT US</a>`
         a.replaceChild(b,c[1])
     }
     else if(seven.page == page_path[2])
     {
         setTimeout(ev=>{js_CODE.employee_login()},10)
 
-        b.innerHTML=`<a href="employee-login.html">EMPLOYEE LOGIN</a>`
+        b.innerHTML=`<a href="employee-login">EMPLOYEE LOGIN</a>`
         a.replaceChild(b,c[3])
     
         
@@ -843,7 +843,7 @@ function check_tag_ava()
         
         setTimeout(ev=>{js_CODE.home()},10)
 
-        b.innerHTML=`<a href="home.html">HOME</a>`
+        b.innerHTML=`<a href="home">HOME</a>`
         a.replaceChild(b,c[0])
     }
 
