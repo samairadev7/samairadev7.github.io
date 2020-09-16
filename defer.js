@@ -4,7 +4,7 @@ tittle=['Home | Nanda Electronics','ABOUT US | Nanda Electronics','CONTACT US | 
 favicon_url=`https://greatret.github.io/ben-10/images/favicon.ico`
 check_page_name=false;
 loc='';SETUP={
-    BASE_URL:`https://samairadev7.github.io/`,js_code:['HTML_CODE.js','style_code.js','js_code.js'],contact_detail:[123456789,123456789,`qwerty@gmail.com`],
+    BASE_URL:`https://samairadev7.github.io/`,js_code:['HTML_CODE.js','style_code.js','js_code.js'],contact_detail:[+919833886114,+919321618561,`nadaelectronics1993@gmail.com`],
     contact_us:'contact-us.html',employee:`https://sheet.best/api/sheets/3ffbd842-1145-4fa6-b1aa-b37a4d28b587`,
     user_data:"https://sheet.best/api/sheets/24201940-ad47-49e6-9b34-920e8be34d7d",send_url:`https://sheet.best/api/sheets/649b38de-6f3d-414a-9980-73149f25582c`,
     contact_us_form_ok:`Thank you for connecting`,contact_us_form_err:`some error occured !!!!!!!!!`}
