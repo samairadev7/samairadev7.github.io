@@ -101,11 +101,11 @@ Default_data={
         },
         {
           "sr_no": "101",
-          "img_url": "https://images.unsplash.com/photo-1576344567153-7f83dee1d82d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80"
+          "img_url": "https://nandaelectronics.com/upload/1082368/images/optimize/F392F3EC972CF215.jpg"
         },
         {
           "sr_no": "102",
-          "img_url": "https://images.unsplash.com/photo-1576344567153-7f83dee1d82d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80"
+          "img_url": "https://nandaelectronics.com//upload/1082368/images/optimize/1D8FB8BB1AE1EFD8.jpg"
         },
         {
           "sr_no": "103",
