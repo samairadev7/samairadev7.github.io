@@ -962,15 +962,18 @@ footer {
 }
 
 .form-input {
-  width: 100%;
-  height: 100%;
-  color: #FF9F1C;
-  padding-top: 20px;
-  padding-left: 5px;
-  border: none;
-  background-color: #011627;
-  font-size: 20px;
+  width: 100% !important;
+  height: 100% !important;
+  color: #FF9F1C !important;
+  padding-top: 20px !important;
+  padding-left: 5px !important;
+  border: none !important;
+  background-color: #011627 !important;
+  font-size: 20px !important;
   font-family: "Raleway", sans-serif;
+}
+#category-selected, .user-interest {
+display:none
 }
 
 .label-name {
