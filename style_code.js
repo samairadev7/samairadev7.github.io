@@ -804,8 +804,8 @@ margin:0 !important;
   
   @media screen and (max-width: 768px) {
     .modal {
-      width: 90%;
-      height: 50%;
+      width: 90% !important;
+      height: 50% !important;
     }
     .modal-title {
       font-size: 28px;
