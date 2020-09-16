@@ -976,7 +976,10 @@ footer {
   font-family: "Raleway", sans-serif;
 }
 #category-selected, .user-interest {
-display:none
+display:none;
+}
+.user-interest {
+display:none;
 }
 
 .label-name {
