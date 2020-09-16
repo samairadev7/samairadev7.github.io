@@ -214,7 +214,7 @@ HTML_CODE={
      </p>
      <br>
      <p>Sincerely,<br>
-         REHAN </p>
+         BOBBY NANDA </p>
  <!-- ***************************about-tag-line********************************** -->
  
 
