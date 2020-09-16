@@ -186,10 +186,10 @@ HTML_CODE={
         </svg>
     </div>
     <ul class="nav-links">
-        <li class="nav-link"><a href="home.html">HOME</a></li>
-        <li class="nav-link"><a href="about-us.html">ABOUT US</a></li>
-        <li class="nav-link"><a href="contact-us.html">CONATACT US</a></li>
-        <li class="nav-link"><a href="employee-login.html">EMPLOYEE LOGIN</a></li>
+        <li class="nav-link"><a href="/home">HOME</a></li>
+        <li class="nav-link"><a href="/about-us">ABOUT US</a></li>
+        <li class="nav-link"><a href="/contact-us">CONATACT US</a></li>
+        <li class="nav-link"><a href="/employee-login">EMPLOYEE LOGIN</a></li>
     </ul>
     <div class="burger">
         <div class="line1"></div>
