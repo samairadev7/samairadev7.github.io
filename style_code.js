@@ -1260,39 +1260,39 @@ display:none !important;
       letter-spacing: 3px;
     }
     
-    .email,
+      .email,
     .password {
-      width: 80%;
-      display: block;
-      margin: 20px auto;
-      border-radius: 10px;
-      background-color: #011627;
-      outline: none;
-      color: #FF9F1C;
-      border: 1px solid #2EC4B6;
-      height: 30px;
-      padding: 20px 10px;
-      text-align: center;
-      -webkit-transition: all .2s ease;
-      transition: all .2s ease;
-      font-size: 20px;
-      font-family: "DM Sans", sans-serif;
+      width: 80% !important;
+      display: block !important;
+      margin: 20px auto !important;
+      border-radius: 10px !important;
+      background-color: #011627 !important;
+      outline: none !important;
+      color: #FF9F1C !important;
+      border: 1px solid #2EC4B6 !important; 
+      height: 30px !important;
+      padding: 20px 10px !important;
+      text-align: center !important;
+      -webkit-transition: all .2s ease !important;
+      transition: all .2s ease !important;
+      font-size: 20px !important;
+      font-family: "DM Sans", sans-serif !important;
     }
     
     .email:focus,
     .email:valid {
-      border-color: #FF9F1C;
-      width: 95%;
-      -webkit-box-shadow: 0px 0px 20px 0px #FF9F1C;
-              box-shadow: 0px 0px 20px 0px #FF9F1C;
+      border-color: #FF9F1C !important;
+      width: 95% !important;
+      -webkit-box-shadow: 0px 0px 20px 0px #FF9F1C !important;
+              box-shadow: 0px 0px 20px 0px #FF9F1C !important;
     }
     
     .password:focus,
     .password:valid {
-      border-color: #FF9F1C;
-      width: 95%;
-      -webkit-box-shadow: 0px 0px 20px 0px #FF9F1C;
-              box-shadow: 0px 0px 20px 0px #FF9F1C;
+      border-color: #FF9F1C !important;
+      width: 95% !important;
+      -webkit-box-shadow: 0px 0px 20px 0px #FF9F1C !important;
+              box-shadow: 0px 0px 20px 0px #FF9F1C !important;
     }
     
     .login-form-button {
