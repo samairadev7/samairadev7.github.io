@@ -188,7 +188,7 @@ HTML_CODE={
     <ul class="nav-links">
         <li class="nav-link"><a href="/home">HOME</a></li>
         <li class="nav-link"><a href="/about-us">ABOUT US</a></li>
-        <li class="nav-link"><a href="/contact-us">CONATACT US</a></li>
+        <li class="nav-link"><a href="/contact-us">CONTACT US</a></li>
         <li class="nav-link"><a href="/employee-login">EMPLOYEE LOGIN</a></li>
     </ul>
     <div class="burger">
