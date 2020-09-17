@@ -1216,6 +1216,7 @@ display:none !important;
 }
 *:focus{
 outline:none !important;
+border:none !important;
 }
 
     
