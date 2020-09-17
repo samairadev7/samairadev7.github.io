@@ -402,7 +402,7 @@ HTML_CODE={
             <div class="heading-slider">
                 <h1>At your <span>service</span><br> since <span>1993</span></h1>
                 <h1>The <span>quality </span>service <br> you <span>expect</span></h1>
-                <h1>Keeping up with <span>trend</span> and <span>trandition</span></h1>
+                <h1>Keeping up with <span>trend</span> and <span>tradition</span></h1>
             </div>
         </div>
         <div class="svg-container">
