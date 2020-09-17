@@ -700,6 +700,7 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
+    margin:0 !important;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     background-color: #011627;
@@ -1212,6 +1213,9 @@ display:none !important;
   .email {
     font-size: 14px;
   }
+}
+*:focus{
+outline:none !important;
 }
 
     
