@@ -1023,8 +1023,8 @@ display:none !important;
 
 .form-input:focus + .label-name .content-name,
 .form-input:valid + .label-name .content-name {
-  -webkit-transform: translateY(-150%);
-          transform: translateY(-150%);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
   opacity: 1;
   font-size: 14px;
   color: #2EC4B6;
