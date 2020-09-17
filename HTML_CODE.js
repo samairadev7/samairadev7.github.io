@@ -109,7 +109,7 @@ Default_data={
         },
         {
           "sr_no": "103",
-          "img_url": "https://images.unsplash.com/photo-1576344567153-7f83dee1d82d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80"
+          "img_url": "https://nandaelectronics.com/upload/1082368/images/optimize/E7F6487084228B85.jpg"
         }
       ]    ,user_data:["error"]
 }
