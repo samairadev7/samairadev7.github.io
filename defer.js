@@ -442,8 +442,8 @@ page_finder_and_hash_replacer()
                     window.spl_logger=[]
                     let cnt=0;
                     employee.forEach(ev=>{
-                        console.log(p,ev.password,ev.email,e)
-                        window.spl_logger.push(`${ev.email},${data12.e},${ev.password},${data12[" p"]}`)
+                        console.log("each",p,ev.password,ev.email,e)
+                        window.spl_logger.push(`${ev.email},${e},${ev.password},${p}`)
                         if(ev.email==e && ev.password ==p)
                         {    window.spl_logger.push('true')   
                             console.log('success')             
