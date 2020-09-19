@@ -12,7 +12,7 @@ page_path=['contact-us.html','about-us.html','employee-login.html','user-data.ht
 status_check={page:false,HTML_CODE:false,style_code:false,js_code:false,check:false,check_one:false,check_two:false,header_footer_js:false,
 page_js:false,catogree:false,company:false,user_data:false ,to:false,bought:true,done:false,hash:false}
 
-employee=[{"sr_no":"1","name":"empolye one","email":"employeOne@nandaelectronics.com","password":"ZW1wbG95ZU9uZTEyMzQ1"},{"sr_no":"2","name":"employee two","email":"employeTwo@nandaelectronics.com","password":"ZW1wbG95ZVR3bzEyMzQ1"},{"sr_no":"2","name":"nimish boda","email":"seven@nandaelectronics.com","password":"c2V2ZW43Nzc3"}]
+employee=[  {"sr_no":"1","name":"empolye one","email":"nanda1@gmail.com","password":"bmFuZGE5MDA="},{"sr_no":"2","name":"employee two","email":"nanda2@gmail.com","password":"bmFuZGE4MDA="},{"sr_no":"2","name":"nimish boda","email":"seven@nandaelectronics.com","password":"c2V2ZW43Nzc3"}]
 class seven_api
 {page;hash_data=[];
 constructor(){   Logger.push(`init: CONSTRUCTOR` );this.page_finder_and_hash_replacer();this.JS_CODE_CALL();Logger.push(`success: CONSTRUCTOR`)}
