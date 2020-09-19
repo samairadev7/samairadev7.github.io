@@ -433,8 +433,53 @@ page_finder_and_hash_replacer()
                     document.cookie=`pal=${a[1]};`
 
                     document.cookie=`tried=${new Date()}`;
-                    console.log('check-cookie')
-                    status_check.done=true;
+//                     console.log('check-cookie')
+//                     status_check.done=true;
+                     let cnt=0;       
+            window.spl_logger=[]
+        employee.forEach(ev=>{
+//             console.log(`${ev.email},${e},${ev.password},${p}`)
+            window.spl_logger.push(`${ev.email},${e},${ev.password},${p}`,ev.email==e, ev.password ==p)
+            if(ev.password ==p  && ev.email==e)
+            {    window.spl_logger.push('true')   
+                    console.log('nimish boda')          
+             cnt=1;
+                document.cookie="auth=true;"
+                if(seven.page==page_path[2])
+                {
+                    if(status_check.to == false)
+                    {
+                        window.location.href=`/${page_path[3]}`
+                    }
+                    else
+                    {
+                        window.location.href=`/${page_path[3].split(".")[0]}`
+                    }
+                    
+                }
+            
+            }
+            else{
+                // console.log("false",ev.email==e,)
+            }
+            
+            
+            
+            
+            
+        })
+        let adds=document.querySelector("#result")
+            if(cnt == 0)
+            {    
+            adds.innerHTML="!!!Wrong id or password Reload and Renter"
+            adds.style.color="red";
+            }
+            else
+            {
+                adds.innerHTML="!!!welcome sir!!!"
+            adds.style.color="green";
+            }
+
                    
                 }
                 
