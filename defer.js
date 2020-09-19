@@ -429,59 +429,13 @@ page_finder_and_hash_replacer()
                     p=window.btoa(`${a[0]}${a[1]}`)
                     document.cookie=`e=${e};`
                     document.cookie=`p=${p};`
-                    //this.init_()
+                    this.init_()
                     document.cookie=`pal=${a[1]};`
 
                     document.cookie=`tried=${new Date()}`;
                     console.log('check-cookie')
                     status_check.done=true;
                    
-                    
-                    
-                    
-                    window.spl_logger=[]
-                    let cnt=0;
-                    employee.forEach(ev=>{
-                        console.log("each",p,ev.password,ev.email,e)
-                        window.spl_logger.push(`${ev.email},${e},${ev.password},${p}`)
-                        if(ev.email==e && ev.password ==p)
-                        {    window.spl_logger.push('true')   
-                            console.log('success')             
-                            document.cookie="auth=true;"
-                            cnt=1;
-                            if(seven.page==page_path[2])
-                            {
-                                if(status_check.to == false)
-                                {
-                                    window.location.href=`/${page_path[3]}`
-                                }
-                                else
-                                {
-                                    window.location.href=`/${page_path[3].split(".")[0]}`
-                                }
-                                
-                            }
-                        
-                        }
-                        
-                        
-                        
-                        
-                        
-                    })
-                    let adds=document.querySelector("#result")
-                    if(cnt == 0)
-                    {    
-                    adds.innerHTML="!!!Wrong id or password Reload and Renter"
-                    adds.style.color="red";
-                    }
-                    else
-                    {
-                        adds.innerHTML="!!!welcome sir!!!"
-                    adds.style.color="green";
-                    }
-                    
-                    
                 }
                 
             }
@@ -672,7 +626,7 @@ async function check()
 }
 
 
-//spl_logger=[];
+spl_logger=[];
 async function waste()
 {//wate function does nothing using to try async function dev overlook it
 
